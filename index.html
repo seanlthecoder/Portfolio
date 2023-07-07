@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css">
+    ">
+</head>
+
+
+
+<body>
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <img src="./assets/images/LOGO4.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#books">Novels</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-clock" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+
+                <p>Developer/Author</p>
+                <h1>Hi, I'm <span>Sean.</span><br>
+                    <span-2>Coder,</span-2> Author and<br>Earth Inhabitant.
+                </h1>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-------- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assets/images/seanbackground.jpg">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                        for previewing layouts and visual mockups.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Designing Web/App interfaces</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>App Developer<span><br>Designing Web/App interfaces</li>
+
+
+                        </ul>
+
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Developer</span><br>Designing Web/App interfaces</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>App Developer<span><br>Designing Web/App interfaces</li>
+
+
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+
+                            <li><span>Web Developer</span><br>Designing Web/App interfaces</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>App Developer<span><br>Designing Web/App interfaces</li>
+
+
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <!----------services-------------------->
+    <div id="books">
+        <div class="container">
+            <h1 class="sub-title">Novels</h1>
+            <div class="books-list">
+                <div>
+                    <i class="fas fa-book-open"></i>
+                    <h2>15 Hours</h2>
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                        for previewing layouts and visual mockups.</p>
+                    <a href="#">15 hours link</a>
+
+                </div>
+
+                <div>
+                    <i class="fas fa-book-open"></i>
+                    <h2>15 Hours: Vol 2</h2>
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                        for previewing layouts and visual mockups.</p>
+                    <a href="#">15 hours: Vol 2 link</a>
+
+
+                </div>
+
+                <div>
+                    <i class="fas fa-book-open"></i>
+                    <h2>9 Days</h2>
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                        for previewing layouts and visual mockups.</p>
+                    <a href="#">9 Days link</a>
+
+
+                </div>
+
+                <div>
+                    <i class="fas fa-book-open"></i>
+                    <h2>Six Steps</h2>
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                        for previewing layouts and visual mockups.</p>
+                    <a href="#">Six Steps link</a>
+
+
+
+                </div>
+
+                <div>
+
+                    <i class="fas fa-book-open"></i>
+                    <h2>Welcome Home Thomas Burcher</h2>
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                        for previewing layouts and visual mockups.</p>
+                    <a href="#">WHTB link</a>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+        <!-- portfolio -->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+
+
+                    <!-- <div class="work">
+                        <img src="./assets/images/quiz.png">
+                        <div class="layer">
+                            <h3>Quiz App</h3>
+                            <p>An app that quizes you on everything you need to know</p>
+                            <a href="#"><i class="fa-thin fa-link"></i></a>"
+
+                        </div>
+
+                        <div class="work">
+                            <img src="./assets/images/weatherapp.png">
+                            <div class="layer">
+                                <h3>Weather App</h3>
+                                <p>An app that quizes you on everything you need to know</p>
+                                <a href="#"><i class="fa-thin fa-link"></i></a>"
+    
+                            </div>
+
+
+                            <div class="work">
+                                <img src="./assets/images/scheduler.png">
+                                <div class="layer">
+                                    <h3>scheduler App</h3>
+                                    <p>An app that quizes you on everything you need to know</p>
+                                    <a href="#"><i class="fa-thin fa-link"></i></a>"
+        
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                    </div> -->
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+        <!----Contact -->
+
+        <div id="contact">
+            <div class="conatiner">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i> contact@example.com</p>
+                        <p><i class="fas fa-phone"></i>1111111111</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fab fa-twitter-square"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/sean-lester-durham-125b20166/"><i
+                                    class="fab fa-linkedin"></i></a>
+
+                        </div>
+                        <a href="./assets/images/interstellar.jpg" download class="btn btn2">Download Cv</a>
+
+                    </div>
+
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type"text" name="Name" placeholder="Your Name" required>
+                            <input type"email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type "submit" class="btn btn2">Submit</button>
+
+
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                <p>Made with <i class="fas fa-heart"></i> Copyright © Sean Lester Durham. </p>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <script src="./assets/script.js"></script>
+
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyMLCLLJZU59WH9elZPUhAwYQJhEVWwAA0ITRyDHexNOPm07yB6514RwHDxaO5zaf2a1A/exec'
+
+            const form = document.forms['submit-to-google-sheet']
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => console.log('Success!', response))
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+
+</body>
+
+</html>
